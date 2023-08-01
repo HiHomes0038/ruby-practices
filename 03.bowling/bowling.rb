@@ -3,7 +3,6 @@
 score = ARGV[0]
 
 scores = score.split(',')
-shots = []
 shots = scores.map do |s|
   if s == 'X'
     10
